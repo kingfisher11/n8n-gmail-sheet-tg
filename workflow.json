@@ -1,0 +1,9 @@
+{
+  "name": "Gmail to Google Sheets with Telegram",
+  "nodes": [
+    {"name": "Gmail Trigger", "type": "gmailTrigger"},
+    {"name": "Extract Data", "type": "function"},
+    {"name": "Google Sheets", "type": "googleSheets"},
+    {"name": "Telegram Notification", "type": "telegram"}
+  ]
+}
